@@ -27,7 +27,7 @@ var prefix = "$"
 
 
       
-      const devs = ['463857132060540958','421023400971075585'];
+      const devs = ['558220897547452418','558220897547452418'];
 const adminprefix = "$"
 
 client.on('message', message => {
@@ -59,7 +59,7 @@ client.on('message', message => {
   client.on('message', async message => {
   if(message.content.startsWith(prefix + "slfstr")) {
     let i = client.users.size;
-    if(message.author.id !== '463857132060540958') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
+    if(message.author.id !== '558220897547452418') return message.channel.send('❎ » هذا الأمر مخصص لصاحب البوت فقط');
     var args = message.content.split(' ').slice(1).join(' ');
     if(!args) return message.channel.send('❎ » يجب عليك كتابة الرسالة')
     setTimeout(() => {
@@ -79,7 +79,7 @@ client.on('message', message => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=474733285440749570&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=561140134032965664&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add SLFSTR Bot ✅
 اسم السيرفر: ${guild.name}
@@ -101,7 +101,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=474733285440749570&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=561140134032965664&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked SLFSTR Bot :cry:
 اسم السيرفر: ${guild.name}
@@ -593,7 +593,7 @@ client.on('message',async message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/M3vsUp8**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/xpa6Fx9**")
      
      
   message.channel.sendEmbed(embed);
@@ -610,7 +610,7 @@ client.on('message',async message => {
                 if(message.content === prefix + "inv") {
                     let embed = new Discord.RichEmbed ()
                     embed.setTitle("**:arrow_right: Invite Cozmo Bot!**")
-                    .setURL("https://discordapp.com/api/oauth2/authorize?client_id=474733285440749570&permissions=8&scope=bot");
+                    .setURL("https://discordapp.com/api/oauth2/authorize?client_id=561140134032965664&permissions=8&scope=bot");
                    message.channel.sendEmbed(embed);
                   }
 });
